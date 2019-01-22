@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <a href="index.html">Nawigacja do Homepage</a>
+    <br/>
+    <hr/>
+
+<!-- HTML wyswietla kontent w blokach albo inline
+Bloki zajmuja cala szerokosc strony, natomiast elementy inline
+mozna umieszczac obok siebie
+
+                                              --> 
+
+<!-- przyklady elementow inline -->
+<a href="link1"></a>
+<a href="link2"></a>
+
+<!-- przyklady bloku - zawsze sa w kolejnej linii -->>
+
+<p>Paragraph1</p>
+<p>Paragraph2</p>
+
+</body>
+</html>
