@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!--  -------------metatags ; umieszcza sie je w head-------- -->
+
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Your description">
+    <meta name="Author" content="Autr">
+    <meta name="keywords" content="HTML, tutorial, etc, przyklady">
+    <!-- wazny metatag - okresla jak ma sie stronka wyswietlac ! -->
+    <meta content="widt=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+
+<!-- dodawanie linii teksstu -->
+  <input type="text" name="my text box"/>
+  <input type="password" name=""/>
+  <input type="text" value="Enter something" name=""/>
+  <br>
+  <hr>
+  <!-- dodawanie pola tekstowego -->
+    <textarea rows="10" cols="20">
+      Enter  something there
+    </textarea>
+  <br>
+  <!-- inne rodzaje pol tekstowych -->
+    <input type="date" name=""/>
+    <input type="email" name=""/>
+  <br>
+    <input type="range" name=""/>
+  <br>
+    <input type="file" name=""/>
+  <br>
+    <input type="checkbox" name=""/>
+    <input type="checkbox" name=""/>
+  <br>
+    <input type="radio" name="1"/>
+    <input type="radio" name="2"/>
+  <br>
+  <hr>
+  <input type="submit" name=""/>
+
+<!--  -----------------------------form--------------------- -->
+<!-- dzieki temu mozna html "sprzegnac" z java/python/frameworkami  -->
+<form action="/action_page.php" method="get">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit">
+</form>
+
+<!--- IFRAME - wyswietla "strone w stronie"  -->
+
+<iframe src="https://giraffeacademy.com" width="800" height="600">To wysweitli sie jesli nie da sie wysw. iframe</iframe>
+<!-- powinno sie uwazac - iframesy moga przechwytywac dane odpowiednio zastosowane -->
+</body>
+
+</html>
