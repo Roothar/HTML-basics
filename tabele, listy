@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <a href="index.html">Nawigacja do Homepage</a>
+    <br/>
+    <hr/>
+    <!-- ---------------unordered list ----------- 
+                                    Mozna wstawiac linki etc -->
+    
+        <ul>
+          <li>Apples</li>
+          <li>Orange</li>
+          <li>Banananas</li>    
+        </ul>
+        <!-- ---------------ordered list--------------  -->
+      <ol type="A">
+        <li>Apples</li>
+        <li>Orange</li>
+        <ol>
+          <li>Item1</li>
+          <li>Item2</li>
+        </ol>
+        <li>Banananas</li>   
+
+      </ol>
+        <!-- ---------------description  list--------------  --> 
+        <dl>
+          <dt>Apples</dt>
+          <dd>Apples are red</dd>
+          <dd>Sweet</dd>
+        </dl>
+    
+    <br/>
+    <hr/>
+
+  <table>
+    <thead>
+    <caption><h3>List of number</h3></caption>
+    </thead>
+
+    <tbody>
+      
+      <tr>
+        <th>num1</th>
+        <th>num2</th>
+        <th>num3</th>
+      </tr>
+      <tr>
+        <td>one</td>
+        <td>two</td>
+        <td>three</td>
+      </tr>
+
+      <tr>
+        <td>four</td>
+        <td>five</td>
+        <td>six</td>
+      </tr>
+
+    </tbody>
+
+  </table>
+
+
+</body>
+</html>
