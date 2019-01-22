@@ -14,6 +14,10 @@
 Bloki zajmuja cala szerokosc strony, natomiast elementy inline
 mozna umieszczac obok siebie
 
+<!-- HTML wyswietla kontent w blokach albo inline
+Bloki zajmuja cala szerokosc strony, natomiast elementy inline
+mozna umieszczac obok siebie
+
                                               --> 
 
 <!-- przyklady elementow inline -->
@@ -24,6 +28,17 @@ mozna umieszczac obok siebie
 
 <p>Paragraph1</p>
 <p>Paragraph2</p>
+
+
+
+<!-- Span to elementy inline -->
+<span>span1</span>
+<span>span2</span>
+
+<!-- div to elementy bloki -->>
+
+<div>div1</div>
+<div>div2</div>
 
 </body>
 </html>
