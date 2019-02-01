@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive navbar</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="main">
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Galleru</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+
+</body>
+</html>
+
+
+__________________________- CSS _______________________________________________
+* {
+	margin: 0;
+	padding: 0;
+	font-family: verdana ;
+
+}
+
+#main {
+	width: 100%;
+	height: 100vh;
+	background-image: url(test.jpg);
+	background-size: cover;
+}
+nav {
+	width: 100%;
+	height: 80px;
+	background-color: #0007;
+	line-height: 80px;
+}
+
+nav ul {
+	float: right;
+	margin-right: 40px;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	transition: 0.6s all;
+}
+
+nav ul li:hover {
+	background-color: #f39d1a;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 30px;
+	text-shadow: 2px;
+}
